@@ -180,12 +180,6 @@ conda list --explicit > onishi_ftcp_env.txt
 
 To restore the environment:
 
-```bash
-conda create --name onishi_ftcp --file onishi_ftcp_env.txt
-```
-
-
-これで環境を復元できます：
 
 ```bash
 conda create --name onishi_ftcp --file onishi_ftcp_env.txt
