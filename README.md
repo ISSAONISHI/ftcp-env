@@ -4,7 +4,7 @@
 
 ---
 
-## ✅ 前提条件
+## ✓ 前提条件
 
 - Anaconda または Miniconda がインストールされていること
 - Windows 環境を想定
@@ -22,19 +22,19 @@ conda activate ftcp_env
 
 ## 2. 必須パッケージのインストール（バージョン指定）
 
-### 🔹 基本ライブラリ
+### ■ 基本ライブラリ
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn joblib tqdm
 ```
 
-### 🔹 機械学習と Keras 環境
+### ■ 機械学習と Keras 環境
 
 ```bash
 pip install tensorflow==1.15.5 keras==2.3.1
 ```
 
-### 🔹 材料科学系ライブラリ
+### ■ 材料科学系ライブラリ
 
 ```bash
 pip install matminer==0.6.2 pymatgen==2022.0.17 monty==3.0.2
@@ -78,17 +78,17 @@ python --version
 
 一部のパッケージ（例：`pymatgen` や `ruamel.yaml`）のビルドには、C++ コンパイラが必要になる場合があります。以下の手順に従って Visual Studio Installer を使ってインストールしてください。
 
-### 🔹 手順（日本語）
+### ■ 手順
 
 1. [Visual Studio Installer](https://visualstudio.microsoft.com/ja/visual-cpp-build-tools/) をダウンロードして実行
 2. 以下の **ワークロード** を選択してインストール：
-   - ✅ **C++ によるデスクトップ開発**
+   - ✓ **C++ によるデスクトップ開発**
 3. インストール完了後、Anaconda Prompt やターミナルを再起動
 
 ---
 
 
-## 📌 備考
+## 備考
 
 - 依存関係が壊れたときは、一度 `conda remove --name ftcp_env --all` で削除してやり直すことを推奨
 - TensorFlow 1.15.5 は古いため、環境の再現性のためにも仮想環境のエクスポートを推奨：
@@ -110,7 +110,7 @@ This document provides detailed steps to set up a virtual environment named `ftc
 
 ---
 
-## ✅ Prerequisites
+## ✓ Prerequisites
 
 - Anaconda or Miniconda is installed  
 - Windows OS is assumed
@@ -128,19 +128,19 @@ conda activate ftcp_env
 
 ## 2. Install Required Packages (with version specifications)
 
-### 🔹 Basic Libraries
+### ■ Basic Libraries
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn joblib tqdm
 ```
 
-### 🔹 Machine Learning and Keras Environment
+### ■ Machine Learning and Keras Environment
 
 ```bash
 pip install tensorflow==1.15.5 keras==2.3.1
 ```
 
-### 🔹 Materials Science Libraries
+### ■ Materials Science Libraries
 
 ```bash
 pip install matminer==0.6.2 pymatgen==2022.0.17 monty==3.0.2
@@ -184,17 +184,17 @@ If `tensorflow==1.15.5` and `keras==2.3.1` can be successfully imported, the set
 
 Some packages (e.g., `pymatgen` or `ruamel.yaml`) may require a C++ compiler to build correctly. Please follow the steps below to install the required build tools using Visual Studio Installer.
 
-### 🔹 Instructions (English)
+### ■ Instructions
 
 1. Download and run the [Visual Studio Installer](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 2. Select and install the following **workload**:
-   - ✅ **Desktop development with C++**
+   - ✓ **Desktop development with C++**
 3. After installation, restart your Anaconda Prompt or terminal
 
 
 ---
 
-## 📌 Notes
+## Notes
 
 - If the environment breaks, you can delete it and recreate it using:
 
