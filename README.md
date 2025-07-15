@@ -73,6 +73,21 @@ python --version
 
 ---
 
+
+## 6. Visual Studio Build Tools のインストール（Windowsユーザー向け）
+
+一部のパッケージ（例：`pymatgen` や `ruamel.yaml`）のビルドには、C++ コンパイラが必要になる場合があります。以下の手順に従って Visual Studio Installer を使ってインストールしてください。
+
+### 🔹 手順（日本語）
+
+1. [Visual Studio Installer](https://visualstudio.microsoft.com/ja/visual-cpp-build-tools/) をダウンロードして実行
+2. 以下の **ワークロード** を選択してインストール：
+   - ✅ **C++ によるデスクトップ開発**
+3. インストール完了後、Anaconda Prompt やターミナルを再起動
+
+---
+
+
 ## 📌 備考
 
 - 依存関係が壊れたときは、一度 `conda remove --name ftcp_env --all` で削除してやり直すことを推奨
@@ -161,6 +176,21 @@ python --version
 ```
 
 If `tensorflow==1.15.5` and `keras==2.3.1` can be successfully imported, the setup is complete.
+
+
+---
+
+## 6. Installing Visual Studio Build Tools (for Windows Users)
+
+Some packages (e.g., `pymatgen` or `ruamel.yaml`) may require a C++ compiler to build correctly. Please follow the steps below to install the required build tools using Visual Studio Installer.
+
+### 🔹 Instructions (English)
+
+1. Download and run the [Visual Studio Installer](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+2. Select and install the following **workload**:
+   - ✅ **Desktop development with C++**
+3. After installation, restart your Anaconda Prompt or terminal
+
 
 ---
 
