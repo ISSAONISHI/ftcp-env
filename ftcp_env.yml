@@ -1,4 +1,4 @@
-name: ftcp_env
+name: ftcp
 channels:
   - conda-forge
   - defaults
