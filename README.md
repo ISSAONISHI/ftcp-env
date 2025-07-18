@@ -28,11 +28,16 @@ conda activate ftcp_env
 pip install numpy pandas matplotlib scikit-learn joblib tqdm
 ```
 
-### ■ 機械学習と Keras 環境
-
-```bash
+### ■ 機械学習と Keras 環境（CPU版）
 pip install tensorflow==1.15.5 keras==2.3.1
-```
+
+### ■ 機械学習と Keras 環境（GPU版）
+pip install tensorflow-gpu==1.15.5 keras==2.3.1
+# ※ GPU版を使うには以下の環境が必要：
+#   - CUDA Toolkit 10.0
+#   - cuDNN 7.4.1（CUDA 10.0対応）
+#   - 対応する NVIDIA GPU ドライバ
+#   - CUDA / cuDNN のパスが環境変数に通っていること
 
 ### ■ 材料科学系ライブラリ
 
