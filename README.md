@@ -55,7 +55,7 @@ pip install ruamel.yaml==0.17.21 ruamel.yaml.clib==0.2.7
 ## 4. Spyder（任意：GUIで動かしたい場合）
 
 ```bash
-pip install spyder==4.2.5 spyder-kernels==1.10.2 pyqt5==5.12.3 pyqt5-sip==12.9.1 pyqtwebengine==5.12.1
+conda install -c conda-forge spyder=4.2.5
 ```
 
 ---
@@ -161,7 +161,7 @@ pip install ruamel.yaml==0.17.21 ruamel.yaml.clib==0.2.7
 ## 4. Spyder (Optional: If using GUI)
 
 ```bash
-pip install spyder==4.2.5 spyder-kernels==1.10.2 pyqt5==5.12.3 pyqt5-sip==12.9.1 pyqtwebengine==5.12.1
+conda install -c conda-forge spyder=4.2.5
 ```
 
 ---
