@@ -14,7 +14,7 @@
 ## 1. 仮想環境の作成とアクティベート
 
 ```bash
-conda create -n ftcp_env python=3.6.13
+conda create -n ftcp_env python=3.7
 conda activate ftcp_env
 ```
 
@@ -135,7 +135,7 @@ This document provides detailed steps to set up a virtual environment named `ftc
 ## 1. Create and Activate the Virtual Environment
 
 ```bash
-conda create -n ftcp_env python=3.6.13
+conda create -n ftcp_env python=3.7
 conda activate ftcp_env
 ```
 
