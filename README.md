@@ -161,11 +161,22 @@ conda activate ftcp_env
 pip install numpy pandas matplotlib scikit-learn joblib tqdm
 ```
 
-### ■ Machine Learning and Keras Environment
+### ■ Machine Learning and Keras Environment (CPU version)
 
 ```bash
 pip install tensorflow==1.15.5 keras==2.3.1
 ```
+
+### ■ Machine Learning and Keras Environment (GPU version)
+
+```bash
+pip install tensorflow-gpu==1.15.5 keras==2.3.1
+```
+※ The following environment is required to use the GPU version：
+   - CUDA Toolkit 10.0
+   - cuDNN 7.4.1 (CUDA 10.0 compliant)
+   - Supported NVIDIA GPU Drivers
+   - CUDA / cuDNN path must be passed in the environment variable
 
 ### ■ Materials Science Libraries
 
