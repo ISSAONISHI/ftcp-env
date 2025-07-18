@@ -87,6 +87,21 @@ python --version
 
 ---
 
+## 7. ftcp_env.yml ファイルからの環境構築（再現用）
+
+既存環境を他のマシンで再現したい場合や、構築手順を省略したい場合は、以下のように `.yml` ファイルを使用して仮想環境を構築できます。
+
+### ■ 準備
+
+`ftcp_env.yml` ファイルがこのディレクトリに存在していることを確認してください。
+
+### ■ 実行コマンド
+
+```bash
+conda env create -f ftcp_env.yml
+conda activate ftcp_env
+```
+---
 
 ## 備考
 
@@ -191,6 +206,28 @@ Some packages (e.g., `pymatgen` or `ruamel.yaml`) may require a C++ compiler to 
    - ✓ **Desktop development with C++**
 3. After installation, restart your Anaconda Prompt or terminal
 
+
+---
+
+## ✅ 追記内容（English）
+
+```md
+---
+
+## 7. Environment Setup from ftcp_env.yml (for Reproducibility)
+
+To reproduce the exact environment on another machine or avoid manual installation, use the provided `.yml` file to create the environment automatically.
+
+### ■ Prerequisite
+
+Ensure that the file `ftcp_env.yml` exists in the working directory.
+
+### ■ Command to Create the Environment
+
+```bash
+conda env create -f ftcp_env.yml
+conda activate ftcp_env
+```
 
 ---
 
