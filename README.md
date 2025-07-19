@@ -25,7 +25,7 @@ conda activate ftcp_env
 ### ■ 基本ライブラリ
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn joblib tqdm
+pip install numpy==1.18.5 pandas matplotlib scikit-learn joblib tqdm
 ```
 
 ### ■ 機械学習と Keras 環境（CPU版）
@@ -158,7 +158,7 @@ conda activate ftcp_env
 ### ■ Basic Libraries
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn joblib tqdm
+pip install numpy==1.18.5 pandas matplotlib scikit-learn joblib tqdm
 ```
 
 ### ■ Machine Learning and Keras Environment (CPU version)
