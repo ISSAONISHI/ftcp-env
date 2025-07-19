@@ -49,7 +49,7 @@ pip install tensorflow-gpu==1.15.5 keras==2.3.1 protobuf==3.20.3
 ### ■ 材料科学系ライブラリ
 
 ```bash
-pip install matminer==0.6.2 pymatgen==2022.0.17 monty==3.0.2 ase
+pip install matminer==0.6.2 pymatgen==2021.3.9 monty==3.0.2 ase
 ```
 
 ---
@@ -181,7 +181,7 @@ pip install tensorflow-gpu==1.15.5 keras==2.3.1 protobuf==3.20.3
 ### ■ Materials Science Libraries
 
 ```bash
-pip install matminer==0.6.2 pymatgen==2022.0.17 monty==3.0.2 ase
+pip install matminer==0.6.2 pymatgen==2021.3.9 monty==3.0.2 ase
 ```
 
 ---
