@@ -31,13 +31,13 @@ pip install numpy pandas matplotlib scikit-learn joblib tqdm
 ### ■ 機械学習と Keras 環境（CPU版）
 
 ```bash
-pip install tensorflow==1.15.5 keras==2.3.1
+pip install tensorflow==1.15.5 keras==2.3.1 protobuf==3.20.3
 ```
 
 ### ■ 機械学習と Keras 環境（GPU版）
 
 ```bash
-pip install tensorflow-gpu==1.15.5 keras==2.3.1
+pip install tensorflow-gpu==1.15.5 keras==2.3.1 protobuf==3.20.3
 ```
 ※ GPU版を使うには以下の環境が必要：
    - CUDA Toolkit 10.0
@@ -164,13 +164,13 @@ pip install numpy pandas matplotlib scikit-learn joblib tqdm
 ### ■ Machine Learning and Keras Environment (CPU version)
 
 ```bash
-pip install tensorflow==1.15.5 keras==2.3.1
+pip install tensorflow==1.15.5 keras==2.3.1 protobuf==3.20.3
 ```
 
 ### ■ Machine Learning and Keras Environment (GPU version)
 
 ```bash
-pip install tensorflow-gpu==1.15.5 keras==2.3.1
+pip install tensorflow-gpu==1.15.5 keras==2.3.1 protobuf==3.20.3
 ```
 ※ The following environment is required to use the GPU version：
    - CUDA Toolkit 10.0
